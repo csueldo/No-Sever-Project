@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 
-<html>
+<html ng-app="basketballApp">
 
 <head>
     <title>BasketBall-Meetup</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
@@ -20,22 +20,21 @@
                     you got next game?
                 </p>
                 <div class="button-container">
-                  <button ui-sref="find-setup" class="start-button">I'm in</button>
+                    <button ui-sref="find-setup" class="start-button">I'm in</button>
                 </div>
             </div>
-</ui-view>
-        </div>
-        <div class="right">
-        </div>
-    </div>
 
+        </div>
+        <div class="right"></div>
+    </div>
+</ui-view>
 
 
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
-    <script src="./js/basketballApp.js"></script>
+    <script src="js/services/basketballApp.js"></script>
 </body>
 
 </html>

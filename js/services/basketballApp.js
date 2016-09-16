@@ -21,4 +21,7 @@ angular.module('basketballApp', ['ui.router'])
         templateUrl: '../views/setupgame.html'
       });
 
+      $urlRouterProvider
+        .otherwise('/');
+
   });
