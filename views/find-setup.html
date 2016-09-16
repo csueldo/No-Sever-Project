@@ -4,21 +4,44 @@
 
     </div> -->
   <main class="find-setup-main-container">
+    <div class="background-container">
 
-    <div class="find-setup-middle">
-      <div class="find-setup-wrapper">
+      <div class="picking-content-wrapper">
 
-        <div class="inner-left">
 
+          <div class="picking-left">
+              <h2 class="picking-h2">What are you waiting for?</h1>
+              <h3>find a meetup and play basketball!</h2>
+                <fieldset>
+                  <legend class="search-legend">Search Details</legend>
+                  <label for="">
+                    zipcode:
+                  <input type="text" name="zipcode">
+                </label><br />
+                  <label for="">
+                    Search within (miles):
+                  <select name="miles">
+                    <option>5</option>
+                    <option>10</option>
+                    <option>15</option>
+                    <option>20</option>
+                  </select></label><br />
+                  <label for="">What day do you want to play on?</label>
+                  <input type="date"><br />
+                  <button type="button" name="search" ui-sref="findgame">Search</button>
+                </fieldset>
+          </div>
+
+          <div class="picking-right">
+
+          </div>
+          <!-- <button type="button" ui-sref="home">Home</button>
+          <button type="button" name="find" ui-sref="findgame">Find Game</button>
+          <button type="button" name="setup" ui-sref="setupgame">Set Up Game</button> -->
         </div>
-        <div class="inn-right">
 
-        </div>
-        <button type="button" ui-sref="home">Home</button>
-        <button type="button" name="find" ui-sref="findgame">Find Game</button>
-        <button type="button" name="setup" ui-sref="setupgame">Set Up Game</button>
 
-      </div>
+
 
     </div>
   </main>

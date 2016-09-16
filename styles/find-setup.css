@@ -12,20 +12,36 @@
   width: 100%;
   position: absolute;
 }
-.find-setup-middle{
+.background-container{
   background: #8e0000;
   height: 100vh;
-  margin: 0 15%;
-
-
+  width: 800px;
+  margin: 0 auto;
 }
-.find-setup-wrapper{
+.picking-content-wrapper{
+  height: 400px;
+  width: 800px;
+  margin: auto;
+}
+.picking-left{
   height: 400px;
   width: 400px;
-  background-color: white;
-  position: relative;
+  background-color: lightgrey;
+  float: left;
+  
 
 }
+.picking-right{
+  height: 400px;
+  width: 400px;
+  background-color: yellow;
+  float: right;
+
+}
+.picking-h2{
+  margin-left: 20px:
+}
+
 /*.right-margin{
   background-color:black;
   height: 100vh;
