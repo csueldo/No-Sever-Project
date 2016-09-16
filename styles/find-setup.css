@@ -1,0 +1,36 @@
+/*.left-margin{
+  background-color: black;
+  height: 100vh;
+  width: 20%;
+  float: left;
+
+}*/
+
+.find-setup-main-container{
+  background: black;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+}
+.find-setup-middle{
+  background: #8e0000;
+  height: 100vh;
+  margin: 0 15%;
+
+
+}
+.find-setup-wrapper{
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  position: relative;
+
+}
+/*.right-margin{
+  background-color:black;
+  height: 100vh;
+  width: 20%;
+  float: right;
+
+  position: relative;
+}*/
